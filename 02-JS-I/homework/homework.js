@@ -61,14 +61,15 @@ function divide(x, y) {
   // Tu código:
   const total=x/y
   return total
-  
+
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var resultado = x === y; 
+  return resultado;
 }
 
 function tienenMismaLongitud(str1, str2) {
