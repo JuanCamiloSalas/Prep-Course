@@ -95,7 +95,13 @@ function agregarStringInvertida() {
     }
 
     detalle () {
-      return this.Persona;
+      //return this.Persona;
+      return {
+        Nombre: this.nombre, 
+        Apellido: this.apellido,
+        Edad: this.edad,
+        Domicilio: this.domicilio,
+      };
     }
 
 }
