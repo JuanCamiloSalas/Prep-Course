@@ -33,7 +33,7 @@ function numberOfCharacters(string) {
     if(!vecesQueAparece.hasOwnProperty(string[i])){
       vecesQueAparece[string[i]] = 1;
     } else {
-      
+      vecesQueAparece[string[i]] += 1;
     }
   }
 
